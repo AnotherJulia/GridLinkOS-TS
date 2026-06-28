@@ -1,0 +1,14 @@
+{
+    "manifestVersion": 1,
+    "name": "GridLinkOS",
+    "entryPoint": "https://grid-link-os.vercel.app/",
+    "license": "CC0",
+    "controls": {
+        "reload": true
+    },
+    "environment": {
+        "webViewBackgroundColor": "#1F1F1F",
+        "extras": [
+        ]
+    }
+}
