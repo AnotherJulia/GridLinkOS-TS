@@ -6,6 +6,20 @@
     "controls": {
         "reload": true
     },
+        "initTimeout": 10,
+        "subscriptions": {
+            "dice": {
+                "onRollResults": "handleRollResult"
+            },
+            "symbiote": {
+                "onVisibilityEvent": "logSymbioteEvent",
+                "onStateChangeEvent": "logSymbioteEvent"
+            }
+        },
+        "interop": {
+            "id": "ddf705cd-31b6-4ff4-98d1-f74c80c34521"
+        }
+    },
     "environment": {
         "webViewBackgroundColor": "#1F1F1F",
         "extras": [
