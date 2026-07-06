@@ -6,10 +6,18 @@
     "controls": {
         "reload": true
     },
+    "api": {
+        "version": "0.1",
         "initTimeout": 10,
         "subscriptions": {
             "dice": {
                 "onRollResults": "handleRollResult"
+            },
+            "initiative": {
+                "onInitiativeEvent": "handleInitiativeEvent"
+            },
+            "creatures": {
+                "onCreatureSelectionChange": "handleCreatureSelection"
             },
             "symbiote": {
                 "onVisibilityEvent": "logSymbioteEvent",
