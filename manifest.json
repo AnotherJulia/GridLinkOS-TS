@@ -19,6 +19,9 @@
             "creatures": {
                 "onCreatureSelectionChange": "handleCreatureSelection"
             },
+            "rulers": {
+                "onRulerEvent": "handleRulerEvent"
+            },
             "symbiote": {
                 "onVisibilityEvent": "logSymbioteEvent",
                 "onStateChangeEvent": "logSymbioteEvent"
